@@ -1,0 +1,116 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{2A2BCDC2-0C8C-4E0B-A0DC-20254928AFDA}</ProjectGuid>
+    <RootNamespace>main</RootNamespace>
+    <ProjectName>Babcia</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>C:\sdl\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>C:\sdl\lib\x86;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>SDL.lib;SDL_image.lib;SDL_ttf.lib;opengl32.lib;SDLmain.lib;SDL_mixer.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <IgnoreSpecificDefaultLibraries>msvcrt.lib</IgnoreSpecificDefaultLibraries>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="Przedmioty.h" />
+    <ClInclude Include="System_babcia.h" />
+    <ClInclude Include="viewActionAlkohol.h" />
+    <ClInclude Include="viewActionBox.h" />
+    <ClInclude Include="viewActionKontakt.h" />
+    <ClInclude Include="viewActionKsiazki.h" />
+    <ClInclude Include="viewActionLampa.h" />
+    <ClInclude Include="viewActionObraz.h" />
+    <ClInclude Include="viewActionOkno.h" />
+    <ClInclude Include="viewActionRadio.h" />
+    <ClInclude Include="viewActionWazon.h" />
+    <ClInclude Include="viewActionZyrandol.h" />
+    <ClInclude Include="viewBox.h" />
+    <ClInclude Include="viewConntrol.h" />
+    <ClInclude Include="viewGameover.h" />
+    <ClInclude Include="viewGraohic.h" />
+    <ClInclude Include="viewMainMenu.h" />
+    <ClInclude Include="viewScene.h" />
+    <ClInclude Include="viewScenTest.h" />
+    <ClInclude Include="viewWin.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="Przedmioty.cpp" />
+    <ClCompile Include="System_babcia.cpp" />
+    <ClCompile Include="viewActionAlkohol.cpp" />
+    <ClCompile Include="viewActionBox.cpp" />
+    <ClCompile Include="viewActionKontakt.cpp" />
+    <ClCompile Include="viewActionKsiazki.cpp" />
+    <ClCompile Include="viewActionLampa.cpp" />
+    <ClCompile Include="viewActionObraz.cpp" />
+    <ClCompile Include="viewActionOkno.cpp" />
+    <ClCompile Include="viewActionRadio.cpp" />
+    <ClCompile Include="viewActionWazon.cpp" />
+    <ClCompile Include="viewActionZyrandol.cpp" />
+    <ClCompile Include="viewBox.cpp" />
+    <ClCompile Include="viewConntrol.cpp" />
+    <ClCompile Include="viewGameover.cpp" />
+    <ClCompile Include="viewGraphic.cpp" />
+    <ClCompile Include="viewMainMenu.cpp" />
+    <ClCompile Include="viewScene.cpp" />
+    <ClCompile Include="viewScenTest.cpp" />
+    <ClCompile Include="viewWin.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

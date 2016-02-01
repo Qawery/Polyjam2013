@@ -1,0 +1,162 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\ActionObjects">
+      <UniqueIdentifier>{89ed6153-81c1-4476-b37b-1d4d6a09fcfe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\System">
+      <UniqueIdentifier>{6364cadf-a0c9-42b0-b9d9-2d87f90a1105}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Scene">
+      <UniqueIdentifier>{b321b0b0-9b8e-4fde-b63d-3ea5e7692042}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ActionObject">
+      <UniqueIdentifier>{f7b5e0a2-d9d5-4cd0-ba7f-453764f46eb5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Scene">
+      <UniqueIdentifier>{b7569c1b-9dc4-478f-b7b8-68b4dff65915}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\System">
+      <UniqueIdentifier>{6a0ecd92-36d0-4597-af45-d2a264e6b953}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="viewGraohic.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="viewBox.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="viewActionKontakt.h">
+      <Filter>Header Files\ActionObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="viewActionZyrandol.h">
+      <Filter>Header Files\ActionObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="viewActionKsiazki.h">
+      <Filter>Header Files\ActionObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="viewActionLampa.h">
+      <Filter>Header Files\ActionObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="viewActionObraz.h">
+      <Filter>Header Files\ActionObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="viewActionOkno.h">
+      <Filter>Header Files\ActionObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="viewActionRadio.h">
+      <Filter>Header Files\ActionObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="viewActionWazon.h">
+      <Filter>Header Files\ActionObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="viewActionAlkohol.h">
+      <Filter>Header Files\ActionObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="Przedmioty.h">
+      <Filter>Header Files\System</Filter>
+    </ClInclude>
+    <ClInclude Include="System_babcia.h">
+      <Filter>Header Files\System</Filter>
+    </ClInclude>
+    <ClInclude Include="viewScenTest.h">
+      <Filter>Header Files\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="viewScene.h">
+      <Filter>Header Files\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="viewMainMenu.h">
+      <Filter>Header Files\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="viewConntrol.h">
+      <Filter>Header Files\System</Filter>
+    </ClInclude>
+    <ClInclude Include="viewActionBox.h">
+      <Filter>Header Files\ActionObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="viewGameover.h">
+      <Filter>Header Files\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="viewWin.h">
+      <Filter>Header Files\Scene</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="viewGraphic.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="viewBox.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="viewActionZyrandol.cpp">
+      <Filter>Source Files\ActionObject</Filter>
+    </ClCompile>
+    <ClCompile Include="viewActionKsiazki.cpp">
+      <Filter>Source Files\ActionObject</Filter>
+    </ClCompile>
+    <ClCompile Include="viewActionLampa.cpp">
+      <Filter>Source Files\ActionObject</Filter>
+    </ClCompile>
+    <ClCompile Include="viewActionObraz.cpp">
+      <Filter>Source Files\ActionObject</Filter>
+    </ClCompile>
+    <ClCompile Include="viewActionOkno.cpp">
+      <Filter>Source Files\ActionObject</Filter>
+    </ClCompile>
+    <ClCompile Include="viewActionRadio.cpp">
+      <Filter>Source Files\ActionObject</Filter>
+    </ClCompile>
+    <ClCompile Include="viewActionWazon.cpp">
+      <Filter>Source Files\ActionObject</Filter>
+    </ClCompile>
+    <ClCompile Include="viewActionKontakt.cpp">
+      <Filter>Source Files\ActionObject</Filter>
+    </ClCompile>
+    <ClCompile Include="viewActionAlkohol.cpp">
+      <Filter>Source Files\ActionObject</Filter>
+    </ClCompile>
+    <ClCompile Include="viewScene.cpp">
+      <Filter>Source Files\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="viewScenTest.cpp">
+      <Filter>Source Files\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="viewMainMenu.cpp">
+      <Filter>Source Files\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="System_babcia.cpp">
+      <Filter>Source Files\System</Filter>
+    </ClCompile>
+    <ClCompile Include="Przedmioty.cpp">
+      <Filter>Source Files\System</Filter>
+    </ClCompile>
+    <ClCompile Include="viewActionBox.cpp">
+      <Filter>Source Files\ActionObject</Filter>
+    </ClCompile>
+    <ClCompile Include="viewConntrol.cpp">
+      <Filter>Source Files\System</Filter>
+    </ClCompile>
+    <ClCompile Include="viewGameover.cpp">
+      <Filter>Source Files\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="viewWin.cpp">
+      <Filter>Source Files\Scene</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
